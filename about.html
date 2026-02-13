@@ -10,9 +10,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="enhanced.css" />
 </head>
 <body>
 
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="container top-bar-inner">
+    <div class="top-bar-left">
+      <span>📍 Hyderabad, Telangana, India</span>
+      <span>🕐 Mon–Sat: 9AM – 6:30PM</span>
+    </div>
+    <div class="top-bar-right">
+      <a href="tel:+919000000000">📞 +91 90000 00000</a>
+      <a href="mailto:info@kgnfiresystems.com">info@kgnfiresystems.com</a>
+    </div>
+  </div>
+</div>
 <!-- HEADER -->
 <header class="site-header" id="site-header">
   <div class="container nav-inner">
@@ -51,8 +65,11 @@
   <div class="container">
     <div class="about-grid">
       <div class="about-visual">
-        <div class="about-main-img">
-          <img src="logo.png" alt="KGN Fire Systems" class="about-logo-display" />
+        <div class="about-main-img" style="padding:0;overflow:hidden;position:relative">
+          <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=700&q=80&auto=format&fit=crop" alt="Fire protection engineers at work" style="width:100%;height:100%;object-fit:cover;filter:brightness(0.5) saturate(0.7)" />
+          <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(214,40,40,0.2),rgba(0,0,0,0.6));display:flex;align-items:center;justify-content:center">
+            <img src="logo.png" alt="KGN Fire Systems" style="width:200px;opacity:0.95;filter:drop-shadow(0 4px 24px rgba(0,0,0,0.6))" />
+          </div>
         </div>
         <div class="about-badge-years">
           <span>20+</span>
